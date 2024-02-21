@@ -8,20 +8,23 @@
                 height: 100%;
                 flex-direction: column;
                 background-color: #e5e5f7;
-                background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+                background-image: radial-gradient(circle at center center, #d644f7, #e5e5f7), repeating-radial-gradient(circle at center center, #f744e5, #f7ca44, 10px, transparent 20px, transparent 10px);
                 background-blend-mode: multiply;
             }
             * {
                 text-align: center;
                 margin: 0 auto;
                 font-family: "Honk", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "MORF" 15,
-    "SHLN" 50;
-                
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-variation-settings:
+                    "MORF" 15,
+                    "SHLN" 50;
+            }
+
+            h1 {
+                font-size: 70px;
             }
         </style>
 
@@ -31,6 +34,12 @@
     </head>
     <body>
         <h1>YEAH BUDDY!!!</h1>
-        <iframe autoplay allow="autoplay" width="860" height="515" src="https://www.youtube.com/embed/9t5G5XwDzmk?si=uZ0a4M3qFkLJa9DH?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <video width="320" height="240" controls>
+            <source src="rcole.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+          
+        <!-- <iframe autoplay allow="autoplay" width="860" height="515" src="https://www.youtube.com/embed/9t5G5XwDzmk?si=uZ0a4M3qFkLJa9DH?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
     </body>
 </html>
